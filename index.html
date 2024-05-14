@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Zonas de Intensidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Zonas de Intensidade</h1>
+        <div id="form-container">
+            <label for="age">Idade:</label>
+            <input type="number" id="age" min="1" required>
+            <label for="gender">Sexo:</label>
+            <select id="gender">
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+            </select>
+            <button onclick="calculateZones()">Calcular</button>
+        </div>
+        <div id="result"></div>
+        <div id="zone-info">
+            <h2>Zonas de Intensidade de Exercício</h2>
+            <table>
+                <tr>
+                    <th>Zona</th>
+                    <th>Nome</th>
+                    <th>Treinamento</th>
+                    <th>% de Intensidade</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Recuperação</td>
+                    <td>Muito Leve</td>
+                    <td>50-60</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Endurance</td>
+                    <td>Leve</td>
+                    <td>60-70</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Aeróbico</td>
+                    <td>Moderado</td>
+                    <td>70-80</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Anaeróbico</td>
+                    <td>Forte</td>
+                    <td>80-90</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>VO2 max</td>
+                    <td>Máximo Esforço</td>
+                    <td>90-100</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
