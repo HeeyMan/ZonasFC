@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#form-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Adicionando estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos adicionais para a tabela */
+#zone-info {
+    margin-top: 30px;
+}
+
+#zone-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#zone-info table {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+#zone-info th, #zone-info td {
+    border: 1px solid #007bff;
+}
+
+#zone-info th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+#zone-info tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+#zone-info tr:hover {
+    background-color: #ddd;
+}
+
